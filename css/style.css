@@ -1,0 +1,161 @@
+.container
+body {
+  font-family: "Playfair Display", serif; }
+
+header {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 160px; }
+  header .imagesContainer {
+    padding: 0; }
+  header nav {
+    padding: 0; }
+    header nav ul {
+      height: 160px;
+      margin: 0;
+      list-style: none;
+      padding: 0; }
+      header nav ul li {
+        margin-left: 60px; }
+        header nav ul li a {
+          color: #626262;
+          font-size: 14px;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-family: "Playfair Display", serif; }
+          header nav ul li a:hover {
+            text-decoration: underline;
+            color: #626262; }
+
+section .post-img {
+  padding: 0;
+  margin: 0; }
+  section .post-img img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    height: auto;
+    margin: 0;
+    padding: 0; }
+
+section article {
+  margin-top: 90px;
+  padding: 0 80px !important; }
+  section article .category {
+    margin-bottom: 15px; }
+    section article .category a {
+      color: #b4ad9e;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none; }
+      section article .category a:hover {
+        text-decoration: underline; }
+  section article h1 {
+    color: #626262;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 25px; }
+  section article .content p {
+    color: #626262;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    line-height: 25px; }
+  section article .categoryA {
+    margin-top: 30px; }
+    section article .categoryA a {
+      color: #b4ad9e;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-decoration: none; }
+      section article .categoryA a:hover {
+        text-decoration: underline; }
+
+.next-post {
+  margin-top: 100px;
+  padding: 0 80px; }
+  .next-post .post {
+    padding-bottom: 130px; }
+    .next-post .post img {
+      width: 420px;
+      height: 298px;
+      overflow: hidden;
+      background-size: contain; }
+    .next-post .post h2 {
+      color: #626262;
+      font-size: 30px;
+      font-family: "Playfair Display", serif;
+      margin-bottom: 25px; }
+    .next-post .post p {
+      color: #626262;
+      font-size: 14px;
+      font-family: "Playfair Display", serif;
+      line-height: 25px; }
+    .next-post .post .lifstyle {
+      margin-top: 30px;
+      margin-bottom: 15px; }
+      .next-post .post .lifstyle a {
+        color: #b4ad9e;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none; }
+        .next-post .post .lifstyle a:hover {
+          text-decoration: underline; }
+
+.newsletter {
+  height: 280px;
+  background: #f0f0f0; }
+  .newsletter .sign {
+    color: #626262;
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    margin-bottom: 70px; }
+  .newsletter form {
+    width: 400px;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    padding-bottom: 6px; }
+    .newsletter form input {
+      border: none;
+      background: inherit; }
+    .newsletter form button {
+      border: none;
+      background: none;
+      cursor: pointer; }
+
+.more {
+  text-align: center;
+  height: 100px;
+  margin-top: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  .more a {
+    font-size: 20px;
+    color: #626262;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border: 1px solid black; }
+
+footer {
+  height: 98px;
+  background: #f0f0f0; }
+  footer .row {
+    height: 98px;
+    padding: 0 80px; }
+  footer .left span {
+    margin-right: 30px; }
+  footer .left a {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262; }
+    footer .left a:hover {
+      text-decoration: underline; }
+  footer .right span {
+    margin-right: 30px; }
+  footer img {
+    margin-left: 15px; }

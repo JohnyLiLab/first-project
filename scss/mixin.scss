@@ -1,0 +1,16 @@
+@mixin img{
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+@mixin text{
+  color: $colorcategory;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
